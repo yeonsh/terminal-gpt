@@ -73,6 +73,12 @@ The user has several environment variables set, some of which are:
 %s`, getAliases())
     }
 
+    prompt += `
+The command the user is looking for is:
+`
+
+    prompt += "`"
+
     if *verbose {
         fmt.Println(prompt)
     }
