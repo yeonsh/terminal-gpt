@@ -6,7 +6,7 @@
 
 ```
 $ go get github.com/yeonsh/terminal-gpt
-$ go build
+$ go install
 ```
 
 ## Example Usage
