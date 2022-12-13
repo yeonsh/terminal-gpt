@@ -12,8 +12,8 @@ $ go build
 ## Example Usage
 
 ```
-$ terminal-gpt extract funcion names from main.go on macOS
-The command to extract function names from main.go on macOS is: 
+$ terminal-gpt extract funcion names from main.go
+The command to extract function names from main.go: 
 grep -oE '^func\s+(\w+)' main.go
 
 $ grep -oE '^func\s+(\w+)' main.go

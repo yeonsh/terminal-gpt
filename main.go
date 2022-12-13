@@ -43,6 +43,9 @@ func main() {
 
 	shell := os.Getenv("SHELL")
 	operatingSystem := runtime.GOOS
+    if operatingSystem == "darwin" {
+        operatingSystem = "macOS"
+    }
 
 	cwd, _ := os.Getwd()
 	files := getFileList()
